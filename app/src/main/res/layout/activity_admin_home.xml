@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/background"
+    tools:context=".ui.theme.login.AdminHome">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMINISTRADOR"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btnVerde"
+        android:text="PROFESSORES"
+        android:id="@+id/btnProf"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CURSOS"
+        android:backgroundTint="@color/btnVerde"
+        android:id="@+id/btnCursos"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="AMBIENTES"
+        android:backgroundTint="@color/btnVerde"
+        android:layout_width="match_parent"
+        android:id="@+id/btnAmb"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="AGENDA"
+        android:backgroundTint="@color/btnAgenda"
+        android:layout_width="match_parent"
+        android:id="@+id/btnAgenda"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:backgroundTint="@color/btnVermelho"
+        android:id="@+id/btnLogout"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

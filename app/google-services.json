@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "326664609270",
+    "project_id": "agendafatec-698d6",
+    "storage_bucket": "agendafatec-698d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326664609270:android:27e5125969afea337ebbd7",
+        "android_client_info": {
+          "package_name": "com.example.agendafatec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrn4d001GhCI0uwW_IeDrmoC1Mffc2uTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
